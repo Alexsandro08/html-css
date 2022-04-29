@@ -1,0 +1,17 @@
+  <link rel="stylesheet" href="style.css">
+
+///Estilo Externo///
+--------------------------------------------------
+
+///Estilo local///
+      
+    <style>
+      h1{
+        text-decoration: underline;
+      }
+    </style> 
+-------------------------------------------------
+
+/// Estilo inline
+
+  <p style="text-align:right;"><a href="pagina02.html" target="_self">Ir para a página de dois</a></p>

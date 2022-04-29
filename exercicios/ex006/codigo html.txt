@@ -1,0 +1,7 @@
+ctrl + shift + p = whamp + p
+semântica: possui signficado
+não semântica : apenas forma
+forma : css3
+sentido : html5
+
+

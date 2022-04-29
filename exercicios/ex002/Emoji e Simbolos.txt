@@ -1,0 +1,15 @@
+tag (&lt) (&gt) para mostrar as tag no parágrafo <-- "LES THAN/GREATER THAN"
+---------------------------------------------------------------------------
+Simbolos
+&reg;
+&copy;
+&trade;
+&euro;
+&pound;
+&yen;
+&cent;
+&Delta;
+&uarr;
+----------------
+Emojis
+  &#x (mais o código do emoji)

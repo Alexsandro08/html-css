@@ -1,0 +1,136 @@
+ <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I"> (1/A/a/I/i)
+
+       <li>Acordar</li>
+       <li>Levantar</li>
+       <li>Escovar os dentes</li>
+       <li>Almoçar</li>
+       <li>blabla</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square"> (disc/circle/square)
+       
+	<li>Acordar</li>
+        <li>Levantar</li>
+        <li>Escovar os dentes</li>
+        <li>Almoçar</li>
+        <li>blabla</li> 
+        </ul>
+
+----------------------------------------------------------------------------------------------------------
+
+
+				Código de lista OL E UL
+
+
+
+
+<h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I"> 
+       <li>Acordar</li>
+       <li>Levantar</li>
+       <li>Escovar os dentes</li>
+       <li>Almoçar</li>
+       <li>blabla</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+        <ul type="disc">
+        <li>Acordar</li>
+        <li>Levantar</li>
+        <li>Escovar os dentes</li>
+        <li>Almoçar</li>
+        <li>blabla</li> 
+        </ul>
+        <h2>Linguagens</h2>
+        <ol>
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+            
+            <li>Novas</li>
+                <ol type="a" start="5">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Java</li>
+                    
+                </ol>
+            
+        </ol>
+        <hr>
+        <h2>Jogos</h2>
+        <ol>
+            <li>Playstation</li>
+            <ul type="square">
+                <li>God of war</li>
+                <ul type="circle">
+                    <li>God of war 1</li>
+                    <li>God of war 2</li>
+                    <li>God of war 3</li>
+                </ul>
+                <li>Detroit</li>
+                <ul type="circle">
+                    <li>(Unico)</li>
+                </ul>
+                <li>Gta</li>
+                <ul type="circle">
+                    <li>Gta 3</li>
+                    <li>Gta 4</li>
+                    <li>Gta 5</li>
+                </ul>
+                <li>Red dead</li>
+                <ul type="circle">
+                    <li>Red dead 1</li>
+                    <li>Red dead 2</li>
+                </ul>
+
+            </ul>
+     <hr>
+        <li>Outros Jogos</li>
+            <ul type="square">
+                <li>Pes</li>
+                <ul type="circle">
+                    <li>Pes 20</li>
+                    <li>Pes 21</li>
+                    <li>Pes 22</li>
+                </ul>
+                <li>Fifa</li>
+                <ul type="circle">
+                    <li>Fifa 20</li>
+                    <li>Fifa 21</li>
+                    <li>Fifa 22</li>
+                </ul type="circle"> 
+                <li>Cod</li>
+                <ul type="circle">
+                    <li>Cod 1</li>
+                    <li>Cod 2</li>
+                    <li>Cod 3</li>
+                </ul>
+                <li>uncharted</li>
+                <ul type="circle">
+                    <li>uncharted 1</li>
+                    <li>uncharted 2</li>
+                    <li>uncharted 3</li>
+                </ul>
+            </ul>
+        </ol>
+	<h2>Lista de Definições</h2> <!----EXEMPLOS-->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação do conteúdo de um site.</dd> 
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para a criação do design de um site</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        </dl>
+--------------------------------------------------------------------------------------------
+Abreviações
+
+exemplo: 
+      <p>Estou estudando <abbr title="Hyper text markup language">HTML</abbr>

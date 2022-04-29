@@ -1,0 +1,5 @@
+ <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://github.com/Alexsandro08" target="_blank" rel="external">repositório no gitHub</a></p> 
+    <p>Link para o youtube <a href="https://www.youtube.com/" target="_blank" rel="external">"aperte aqui"</a></p>
+----------------------------------------------------------------------------------------------------------------------------------------
+Usar a <tag> target="_black" rel="external" para links externos

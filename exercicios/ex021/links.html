@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+    /* # = id
+       . = class
+       : = pseudo-class
+       :: = pseu-elementos
+    */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+         
+        }
+        a {
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        li {
+            color: blue;
+       
+        }
+        a:visited {
+            color: darkred;
+        }
+        .especial{
+            background-color: rgb(127, 108, 145);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color:blueviolet;
+        }
+        .especial::before {
+            content: '⇒ ';
+        }
+        .especial::after {
+            content:' ⇐';
+            text-decoration: none;
+            font-weight: normal;
+         
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blueviolet;">Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/" target="_blank">Repositorio github </a> // Meu github </li>
+        <li><a href="https://www.youtube.com/" target="_blank">Canal youtube</a> //  Meu youtube </li>
+        <li><a href="https://www.instagram.com/" target="_blank" class="especial">Instagram</a> //  Meu instagram </li>
+    </ul>
+</body>
+</html>
