@@ -1,0 +1,6 @@
+ <style>
+        body{
+            background-image: url(https://media.istockphoto.com/photos/powerful-personal-computer-gamer-rig-with-firstperson-shooter-game-on-picture-id1157290024?b=1&k=20&m=1157290024&s=170667a&w=0&h=sAIhVoG8fBgVJ5JNAaNUHimlcwe7w0iTgvdCgDuxuY4=);
+            background-repeat: no-repeat;
+        }
+    </style>
