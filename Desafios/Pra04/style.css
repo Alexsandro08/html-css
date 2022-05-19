@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+header {
+    background-color: black;
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+
+header > h1{
+    color: white;
+    font-size: normal;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
