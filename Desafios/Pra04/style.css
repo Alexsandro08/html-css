@@ -1,28 +1,74 @@
 @charset "utf-8";
 
-
-header {
-    background-color: black;
-    min-height: 150px;
-    text-align: center;
-    padding: 40px;
-    
-}
-
-
-header > h1{
-    color: white;
-    font-size: normal;
-    margin-bottom: 20px;
+@font-face {
+    font-family: 'xilosa';
+    src: url(fonts/xilosa_.ttf)format('opentype');
     font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+:root{
+    --font-destaque: 'Bebas Neue', cursive;
 }
 
 *{
     padding: 0px;
     margin: 0px;
 }
+body{
+    background-image: url(imagens/va-cordel-encantado-capa-oficial-do-c381lbum-cover-brasil.jpg);
+}
+
+header {
+    background-color: rgba(175, 146, 49, 0.959);
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+section {
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+section > p {
+    padding: 10px;
+    font-family: var(--font-destaque);
+    font-size: 1.1em;
+    
+    
+}
+
+header > h1{
+    font-family: 'xilosa';
+    color: white;
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+header > p {
+    font-family: 'xilosa';
+    font-size: 1.5em;
+}
+
+
 
 footer {
-    padding: 20px;
+    background-color: rgba(175, 146, 49, 0.959);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 5px;
     text-align: center;
+   
 }
+
+
+ p > a {
+     color: white;
+     text-decoration: none;
+ }
+ p > a:hover{
+     text-decoration: underline;
+ }
