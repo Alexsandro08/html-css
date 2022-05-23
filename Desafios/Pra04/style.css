@@ -15,8 +15,11 @@
     padding: 0px;
     margin: 0px;
 }
-body{
+
+body {
     background-image: url(imagens/va-cordel-encantado-capa-oficial-do-c381lbum-cover-brasil.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 header {
@@ -49,6 +52,7 @@ header > h1{
     font-weight: normal;
 }
 header > p {
+    color: white;
     font-family: 'xilosa';
     font-size: 1.5em;
 }
@@ -65,10 +69,49 @@ footer {
 }
 
 
- p > a {
+ a {
      color: white;
      text-decoration: none;
  }
- p > a:hover{
+ a:hover{
      text-decoration: underline;
- }
+}
+ 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3em
+}
+
+section.fotoum > p {
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+
+}
+section.fotodois > p {
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+
+}
+section.normal{
+    background-color: white;
+}
+section.fotoum {
+    background-image: url(imagens/background001.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    max-width: 500px;
+    background-attachment: fixed;
+   
+
+}
+section.fotodois {
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 500px;
+    background-attachment: fixed;
+   
+
+}
