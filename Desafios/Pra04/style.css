@@ -83,12 +83,12 @@ section {
     line-height: 3em
 }
 
-section.fotoum > p {
+section.fotoa> p {
     background-color: rgba(0, 0, 0, 0.185);
     color: white;
 
 }
-section.fotodois > p {
+section.fotob > p {
     background-color: rgba(0, 0, 0, 0.185);
     color: white;
 
@@ -96,7 +96,7 @@ section.fotodois > p {
 section.normal{
     background-color: white;
 }
-section.fotoum {
+section.fotoa {
     background-image: url(imagens/background001.jpg);
     background-position: right;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ section.fotoum {
    
 
 }
-section.fotodois {
+section.fotob {
     background-image: url(imagens/background002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
