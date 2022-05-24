@@ -43,13 +43,10 @@ section > p {
     
     
 }
-
-header > h1{
+ h1{
     font-family: 'xilosa';
     color: white;
-    font-size: 4em;
-    margin-bottom: 20px;
-    font-weight: normal;
+    font-size: 7vw;   
 }
 header > p {
     color: white;
