@@ -46,12 +46,14 @@ section > p {
  h1{
     font-family: 'xilosa';
     color: white;
-    font-size: 7vw;   
+    font-size: 7vw;  
+    text-shadow: 2px 1px 0px black; 
 }
 header > p {
     color: white;
     font-family: 'xilosa';
     font-size: 1.5em;
+    text-shadow: 0.5px 1px 0px black;
 }
 
 
@@ -83,22 +85,23 @@ section {
 section.fotoa> p {
     background-color: rgba(0, 0, 0, 0.185);
     color: white;
+    text-shadow: 1px 1px 0px black;
 
 }
 section.fotob > p {
     background-color: rgba(0, 0, 0, 0.185);
     color: white;
-
+    text-shadow: 1px 1px 0px black;
 }
 section.normal{
     background-color: white;
 }
 section.fotoa {
     background-image: url(imagens/background001.jpg);
-    background-position: right;
+    background-position: right center;
     background-repeat: no-repeat;
-    max-width: 500px;
     background-attachment: fixed;
+    background-size: cover;
    
 
 }
@@ -107,7 +110,6 @@ section.fotob {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 500px;
     background-attachment: fixed;
    
 
