@@ -45,7 +45,8 @@ section > p {
 }
  h1{
     font-family: 'xilosa';
-    color: white; 
+    color: white;
+    font-size: 7vw;  
     text-shadow: 2px 1px 0px black; 
 }
 header > p {
