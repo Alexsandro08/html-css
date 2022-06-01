@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            padding: 6px;
+            text-align: right;
+
+        }
+        .nome{
+            color: rgba(0, 0, 255, 0.76);
+            text-align: left;
+
+        }
+        .cab {
+            border: 1px solid black;
+            background-color:rgb(234, 236, 240);
+            color: rgba(0, 0, 255, 0.76);
+            padding: 10px;
+            
+        }
+        th {
+            border: 1px solid black;
+            background-color:rgb(234, 236, 240);
+            color: rgba(0, 0, 255, 0.76);
+        }
+    </style>
+</head>
+<body>
+    <h1>TABELA DOIS</h1>
+    <!--
+        ANATOMIA TABELAS GRANDES
+        TABLE
+          THEAD
+            TR,TH,TD
+        TBODY
+            TR,TH,TD
+        TFOOT
+            TR,TH,TD
+
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th class="cab">ESTADO</th>
+                <th class="cab">POPULAÇÃO</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="nome">SÃO PAULO</td>
+                <td>44 169 350</td>
+            </tr>
+            <tr>
+                <td class="nome">RIO DE JANEIRO</td>
+                <td>16 497 395</td>
+            </tr>
+            <tr>
+                  <td class="nome">MINAS GERAIS</td>
+                  <td>20 777 672</td>
+            </tr>
+            <tr>
+                  <td class="nome">PARAIBA</td>
+                  <td>3 950 359</td>
+            </tr>
+            <tr>
+                 <td class="nome">PERNAMBUCO</td>
+                 <td>9 297 861</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>TOTAL DE HABITANTES</th>
+                <td><strong>210.107.125</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>

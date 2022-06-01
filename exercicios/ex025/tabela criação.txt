@@ -1,6 +1,6 @@
 HTML
    <h1>TABELA </h1>
-    <!-- HIERARQUIA DE TABELA
+    <!-- HIERARQUIA DE TABELA(simples)
         tabela = table
         table row = tr (linha de tabela)
         table header = th (cabeçalho da tabela)
