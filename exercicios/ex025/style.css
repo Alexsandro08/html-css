@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: right;
+
+}
+.nome{
+    color: rgba(0, 0, 255, 0.76);
+    text-align: left;
+
+}
+.cab {
+    border: 1px solid black;
+    background-color:rgb(234, 236, 240);
+    color: rgba(0, 0, 255, 0.76);
+    padding: 10px;
+    
+}
+th {
+    border: 1px solid black;
+    background-color:rgb(234, 236, 240);
+    color: rgba(0, 0, 255, 0.76);
+    
+}
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: gray;
+    padding: 5px;
+}

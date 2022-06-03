@@ -3,6 +3,7 @@ HTML
     <h1>TABELA DOIS</h1>
     <!--
         ANATOMIA TABELAS GRANDES
+	caption = legenda da tabela
         TABLE
           THEAD
             TR,TH,TD

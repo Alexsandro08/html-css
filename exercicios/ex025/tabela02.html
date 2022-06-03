@@ -5,43 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela 02</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        table {
-            width: 500px;
-            border-collapse: collapse;
-        }
-        td {
-            border: 1px solid black;
-            padding: 6px;
-            text-align: right;
+    <link rel="stylesheet" href="style.css">
 
-        }
-        .nome{
-            color: rgba(0, 0, 255, 0.76);
-            text-align: left;
-
-        }
-        .cab {
-            border: 1px solid black;
-            background-color:rgb(234, 236, 240);
-            color: rgba(0, 0, 255, 0.76);
-            padding: 10px;
-            
-        }
-        th {
-            border: 1px solid black;
-            background-color:rgb(234, 236, 240);
-            color: rgba(0, 0, 255, 0.76);
-        }
-    </style>
 </head>
 <body>
     <h1>TABELA DOIS</h1>
     <!--
         ANATOMIA TABELAS GRANDES
+        caption = legenda da tabela
         TABLE
           THEAD
             TR,TH,TD
@@ -52,10 +23,11 @@
 
     -->
     <table>
+        <caption>UNIDADES FEDERATIVAS</caption>
         <thead>
             <tr>
-                <th class="cab">ESTADO</th>
-                <th class="cab">POPULAÇÃO</th>
+                <th scope="col" class="cab" >ESTADO</th>
+                <th scope="col" class="cab"style="width: 100px">POPULAÇÃO</th>
             </tr>
         </thead>
 
@@ -85,7 +57,7 @@
 
         <tfoot>
             <tr>
-                <th>TOTAL DE HABITANTES</th>
+                <th scope="row">TOTAL DE HABITANTES</th>
                 <td><strong>210.107.125</strong></td>
             </tr>
 
