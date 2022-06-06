@@ -13,11 +13,12 @@ HTML
             TR,TH,TD
 
     -->
-    <table>
+        <table>
+        <caption>UNIDADES FEDERATIVAS</caption>
         <thead>
             <tr>
-                <th class="cab">ESTADO</th>
-                <th class="cab">POPULAÇÃO</th>
+                <th scope="col" class="cab" >ESTADO</th>
+                <th scope="col" class="cab"style="width: 100px">POPULAÇÃO</th>
             </tr>
         </thead>
 
@@ -47,13 +48,12 @@ HTML
 
         <tfoot>
             <tr>
-                <th>TOTAL DE HABITANTES</th>
+                <th scope="row">TOTAL DE HABITANTES</th>
                 <td><strong>210.107.125</strong></td>
             </tr>
 
         </tfoot>
     </table>
-
 
 
 CSS
@@ -88,3 +88,6 @@ CSS
             background-color:rgb(234, 236, 240);
             color: rgba(0, 0, 255, 0.76);
         }
+        tbody > tr:nth-child(2n) {  /*EFEITO ZEBRAICO*/
+        background-color: lightgray;
+      }
